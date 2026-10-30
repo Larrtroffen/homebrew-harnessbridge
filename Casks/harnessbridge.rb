@@ -4,7 +4,7 @@ cask "harnessbridge" do
 
   url "https://github.com/Larrtroffen/harnessbridge/releases/download/v#{version}/HarnessBridge-#{version}-macos-arm64.dmg"
   name "HarnessBridge"
-  desc "Migrate AI agent sessions between Claude Code, Codex, DeepSeek Harness, OMP, Qoder and 40+ harnesses"
+  desc "Move AI agent sessions between 40+ coding harnesses"
   homepage "https://github.com/Larrtroffen/harnessbridge"
 
   depends_on arch: :arm64
