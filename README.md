@@ -2,6 +2,7 @@
 
 ```bash
 brew tap Larrtroffen/harnessbridge
+brew trust Larrtroffen/harnessbridge   # Homebrew 7 requires explicit trust for third-party taps
 brew install --cask harnessbridge
 ```
 
