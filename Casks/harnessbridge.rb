@@ -8,7 +8,7 @@ cask "harnessbridge" do
   homepage "https://github.com/Larrtroffen/harnessbridge"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "HarnessBridge.app"
 
