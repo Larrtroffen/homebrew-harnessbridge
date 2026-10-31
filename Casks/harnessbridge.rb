@@ -1,6 +1,6 @@
 cask "harnessbridge" do
-  version "1.5.2"
-  sha256 "41b51c00728fc41c4e123e44e06fff784b612f91bb3d2bca6c4722cef2b793e8"
+  version "1.6.0"
+  sha256 "ab855cb2e919e97abd726073c31045de7c62a65897abbc3e5dc87eb7bbae243b"
 
   url "https://github.com/Larrtroffen/harnessbridge/releases/download/v#{version}/HarnessBridge-#{version}-macos-arm64.dmg"
   name "HarnessBridge"
