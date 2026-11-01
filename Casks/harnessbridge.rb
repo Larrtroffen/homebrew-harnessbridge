@@ -1,13 +1,13 @@
 cask "harnessbridge" do
-  version "1.7.0"
+  version "1.7.1"
 
   on_arm do
-    sha256 "6ec8e75e8e373a7a7743ba852cea04425fd275495aa93562b99cec27edac294c"
+    sha256 "ef3d38015163ee5d572bd90a9a2fe8bb51aad4294feb7322d34ce9a937bb6915"
 
     url "https://github.com/Larrtroffen/harnessbridge/releases/download/v#{version}/HarnessBridge-#{version}-macos-arm64.dmg"
   end
   on_intel do
-    sha256 "1bce84f118a15489bf91371de684b85fa5bf20f3f0c7707e805c038f920f195c"
+    sha256 "7902024bbab462a8fd0c97af33fba9493f3f3ee65de51db0dc11ebbba1b99104"
 
     url "https://github.com/Larrtroffen/harnessbridge/releases/download/v#{version}/HarnessBridge-#{version}-macos-x86_64.dmg"
   end
