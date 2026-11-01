@@ -1,13 +1,20 @@
 cask "harnessbridge" do
-  version "1.6.2"
-  sha256 "237d8abad4d9e991516f49ade22ba47ca5888abe88de60fc97af203d18d3d9e4"
+  version "1.6.3"
 
-  url "https://github.com/Larrtroffen/harnessbridge/releases/download/v#{version}/HarnessBridge-#{version}-macos-arm64.dmg"
+  on_arm do
+    sha256 "a409e78c283da0195256ef6761d36b58009a763d41312acec38abc4794c1d6e0"
+    url "https://github.com/Larrtroffen/harnessbridge/releases/download/v#{version}/HarnessBridge-#{version}-macos-arm64.dmg"
+  end
+
+  on_intel do
+    sha256 "a493ff29904067c054b016be43f0b8aad50a6adac72a396e1d96076bd48b0051"
+    url "https://github.com/Larrtroffen/harnessbridge/releases/download/v#{version}/HarnessBridge-#{version}-macos-x86_64.dmg"
+  end
+
   name "HarnessBridge"
   desc "Move AI agent sessions between 40+ coding harnesses"
   homepage "https://github.com/Larrtroffen/harnessbridge"
 
-  depends_on arch: :arm64
   depends_on macos: :ventura
 
   app "HarnessBridge.app"
